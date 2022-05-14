@@ -81,6 +81,19 @@
   img {
     max-width: 100%;
   }
+
+
+  .medium-heading {
+    font-weight: bolder;
+    font-size: larger;
+    color: var(--color-heading);
+  }
+
+  .small-heading {
+    font-weight: bolder;
+    font-size: medium;
+    color: var(--color-heading);
+  }
   
   /* Hero */
   video {
@@ -122,17 +135,30 @@
     align-items: center;
   }
 
-  .medium-heading {
-    font-weight: bolder;
-    font-size: larger;
-    color: var(--color-heading);
+
+  /* Videos */
+  .videos-container {
+    margin-top: 16rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
   }
 
-  .small-heading {
-    font-weight: bolder;
-    font-size: medium;
-    color: var(--color-heading);
+  .video-container {
+    height: 20vh;
+    width: 20vw;
+    margin: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
+
+  .video-container > video {
+    border-radius: 4rem;
+  }
+
   
   /* Badges */
   .badge-xs {
