@@ -5,7 +5,7 @@ import { Router } from "./components/routes";
 function App() {
   return (
     <div className="App">
-      <HeaderNavBar/>
+      {/* <HeaderNavBar/> */}
       <Router/>
     </div>
   );
