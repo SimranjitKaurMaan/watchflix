@@ -7,6 +7,7 @@ export const Video = () => {
           <VideoPlayer/>
       </main>
       <aside>
+          <h2 className="highlight-text sm-left-margin">Up next</h2>
           <VideoCard/>
           <VideoCard/>
       </aside>

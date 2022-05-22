@@ -138,7 +138,7 @@ video {
 
 .video-container {
   width: 20rem;
-  margin: 0.8rem;
+  margin-top: 2.4rem;
 }
 
 .video-container > video {
@@ -268,7 +268,6 @@ nav {
 
 main {
   grid-area: main;
-  height: 100vh;
 }
 
 aside {
@@ -278,7 +277,9 @@ aside {
 
 .video-container-wrapper {
   display: grid;
-  width: 100%;
+  margin-right: 4rem;
+  margin-left: 2rem;
+  margin-top: 8rem;
   grid-gap: 1.5rem;
   grid-template-columns: 1fr 20rem;
   grid-template-areas:
@@ -334,6 +335,10 @@ form > input {
 /* Margin Utilities */
 .sm-top-margin {
   margin-top: 0.4rem;
+}
+
+.sm-left-margin {
+  margin-left: 0.8rem;
 }
 
 /* Flex Utilities */
@@ -420,9 +425,6 @@ form > input {
     width: 100vw;
     background-color: var(--color-background);
   }
-  aside {
-    display: none;
-  }
 
   .sm-top-margin {
     margin-top: 0.2rem;
@@ -472,12 +474,13 @@ form > input {
   .video-container-wrapper {
     display: grid;
     width: 100%;
+    margin-left: 0;
+    margin-top: 0;
     grid-gap: 1.5rem;
     grid-template-columns: 1fr;
     grid-template-areas:
       "main"
-      "main"
-      "main";
+      "aside";
   }
 
   .video-player-container{
@@ -494,11 +497,15 @@ form > input {
     width: 100%;
   }
   .video-title-info {
-    width: 90%;
+    width: 95%;
   }
 
   .highlight-text {
     font-size: 0.8rem;
+  }
+
+  .video-container {
+    margin: 2rem;
   }
 
 }
