@@ -17,6 +17,7 @@ body,
 body {
   display: flex;
   width: 100%;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 /* Header */
@@ -180,7 +181,10 @@ video {
 .video-player-container {
   display: flex;
   flex-direction: column;
+  height: 60rem;
+  width: 80rem;
 }
+
 .vjs_video_3-dimensions {
   width: 100%;
 }
@@ -333,7 +337,6 @@ form > input {
 }
 
 /* Flex Utilities */
-
 .flex-col-wrap-start {
   display: flex;
   flex-direction: column;
@@ -408,53 +411,94 @@ form > input {
 }
 
 @media screen and (max-width: 48em) {
-/*  header {
-    justify-content: flex-start;
+    html,
+    body,
+    #root{ 
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--color-background);
   }
-
-  .logo-container {
-    margin-left: 0rem;
-  }
-
-  .logo-container > a > h1 {
-    font-size: var(--fs-sm);
-    margin-left: 2rem;
-  }
-
-  .btn-header-login {
-    margin-left: auto;
-  }
-
-  .hero-subheading {
+  aside {
     display: none;
   }
 
-  #search-bar {
-    width: inherit;
+  .sm-top-margin {
+    margin-top: 0.2rem;
   }
 
-  header {
-    padding: 0rem;
+  .video-player-title {
+    font-size: 0.8rem;
   }
 
-  .hero-container {
-    padding-left: 1rem;
+  .video-player-subtitle {
+    font-size: 0.6rem;
   }
 
-  aside {
-    padding: 0 0.5rem;
-  } */
+  .divider {
+    padding-top: 1rem;
+  }
 
+  .btn {
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    font-size: 0.8rem;
+  }
+
+  .avatar-md {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .video-description-container {
+    padding-top: 1rem;
+  }
+
+  .video-description {
+    display: none;
+  }
+
+  .video-player-buttons {
+    margin-left: 0;
+  }
+
+  .video-player-details {
+    padding: 0.2rem;
+  }
 
   .video-container-wrapper {
     display: grid;
     width: 100%;
     grid-gap: 1.5rem;
-    grid-template-columns: repeat(4, 25%);
+    grid-template-columns: 1fr;
     grid-template-areas:
-      "main    main   main  main"
-      "main    main   main  main"
-      "main    main   main  main";
+      "main"
+      "main"
+      "main";
+  }
+
+  .video-player-container{
+    height: 100%;
+    width: 100%;
+  }
+
+  .video-player-actions {
+    padding-top: 1rem;
+  }
+
+  .vjs_video_3-dimensions {
+    height: 12rem;
+    width: 100%;
+  }
+  .video-title-info {
+    width: 90%;
+  }
+
+  .highlight-text {
+    font-size: 0.8rem;
   }
 
 }

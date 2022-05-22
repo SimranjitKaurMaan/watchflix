@@ -9,8 +9,6 @@ export const VideoPlayer = () => {
         className="video-js vjs-big-play-centered"
         controls
         preload="auto"
-        width="1000"
-        height="600"
         data-setup="{}"
         poster=""
       >
