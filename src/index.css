@@ -89,6 +89,7 @@ img {
 }
 
 /* Heading */
+
 .md-heading {
   font-weight: bolder;
   font-size: larger;
@@ -109,6 +110,7 @@ video {
 .hero-container > video {
   height: 100%;
   border-radius: 0rem;
+  filter: blur(0.4rem);
 }
 
 .hero-container {
@@ -117,6 +119,12 @@ video {
   justify-content: center;
   align-items: center;
 
+}
+
+.hero-content-overlay {
+  position: absolute;
+  left: 38rem;
+  bottom: 30rem;
 }
 
 /* Categories */
@@ -353,6 +361,15 @@ aside {
 }
 
 /* Margin Utilities */
+
+.extra-lg-top-margin {
+  margin-top: 4rem;
+}
+
+.md-top-margin {
+  margin-top: 2rem;
+}
+
 .sm-top-margin {
   margin-top: 0.4rem;
 }

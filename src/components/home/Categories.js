@@ -2,7 +2,7 @@ export const Categories = () => {
   return (
     <>
       <div className="categories-container-wrapper">
-      <h2 className="md-heading">Discover</h2>
+      <h2 className="md-heading">DISCOVER</h2>
       <div className="categories-container">
         <div className="category-container">
           <video
