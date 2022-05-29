@@ -1,4 +1,4 @@
-import { BsFillPlayCircleFill } from "react-icons/bs";
+import {HiPlay} from "react-icons/hi"
 
 export const Banner = () => {
     return <>
@@ -12,7 +12,7 @@ export const Banner = () => {
             <h2 className="highlight-text">BY SELENA GOLEMEZ</h2>
             <div className="md-heading extra-lg-top-margin">Charlie Putz - Veg Grill Sandwich</div>
             <div className="md-heading">feat. Selena Golomez</div>
-            <BsFillPlayCircleFill size={"4rem"} color="pink"/>
+            <HiPlay size={"4rem"} style={{color: "#FE3562"}}/>
         </div>
       </div>
     </>
