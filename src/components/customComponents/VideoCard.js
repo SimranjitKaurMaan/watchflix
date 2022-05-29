@@ -1,4 +1,5 @@
 import { BiDotsVerticalRounded } from "react-icons/bi";
+import { BsDot } from "react-icons/bs";
 
 export const VideoCard = () => {
   return (
@@ -32,8 +33,8 @@ export const VideoCard = () => {
               <BiDotsVerticalRounded size={"1.2rem"} color="grey" />
             </div>
           </div>
-          <div className="video-subtitle sm-top-margin">
-            6K views &nbsp; | &nbsp; 4 hours ago
+          <div className="video-subtitle sm-top-margin flex-row-start-center">
+            6K views <BsDot size={"1.2rem"} color="grey"/> 4 hours ago
           </div>
         </div>
       </div>
