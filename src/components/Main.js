@@ -1,12 +1,17 @@
-import { Banner } from "./home/Banner"
-import { Categories } from "./home/Categories"
+import { Banner } from "./home/Banner";
+import { Categories } from "./home/Categories";
+import { SideNavBar } from "./customComponents/Navbar/SideNavBar";
 
 export const Main = () => {
-    return <>
-    <main>
-        <div className="main-container flex-col-wrap-center">
-            <Banner/>
-            <Categories/>
-        </div>
-    </main></>
-}
+  return (
+    <>
+      <div className="main-container-wrapper">
+        <SideNavBar/>
+        <main>
+          <Banner />
+          <Categories />
+        </main>
+      </div>
+    </>
+  );
+};
