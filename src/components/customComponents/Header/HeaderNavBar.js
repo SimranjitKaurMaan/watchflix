@@ -26,10 +26,10 @@ export const HeaderNavBar = () => {
           </div>
           <nav>
             <div className="badge-container">
-              <RiVideoAddLine size={"2rem"} color="grey" />
+              <RiVideoAddLine className="lg-icon" />
             </div>
             <div className="badge-container">
-              <FaRegBell size={"2rem"} color="grey" />
+              <FaRegBell className="lg-icon" />
             </div>
             <div>
               <Link to="/" className="user">

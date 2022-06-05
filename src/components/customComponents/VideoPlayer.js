@@ -52,18 +52,18 @@ export const VideoPlayer = () => {
             </div>
             <div className="video-player-buttons">
               <div className="icon-container">
-                <AiFillLike size={"1.2rem"} color="grey" />
+                <AiFillLike className="md-icon" />
               </div>
               <span className="highlight-text icon-text-container">33K</span>
               <div className="icon-container">
-                <AiFillDislike size={"1.2rem"} color="grey" />
+                <AiFillDislike className="md-icon" />
               </div>
               <span className="highlight-text icon-text-container"> 929</span>
               <div className="icon-container">
-                <MdWatchLater size={"1.2rem"} color="grey" />
+                <MdWatchLater className="md-icon" />
               </div>
               <div className="icon-container">
-                <RiMenuAddFill size={"1.2rem"} color="grey" />
+                <RiMenuAddFill className="md-icon" />
               </div>
             </div>
           </div>

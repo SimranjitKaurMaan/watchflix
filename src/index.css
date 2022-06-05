@@ -423,6 +423,18 @@ aside {
   justify-content: flex-start;
 }
 
+.md-icon {
+  height: 1.2rem;
+  width: 1.2rem;
+  color: grey;
+}
+
+.lg-icon {
+  height: 2rem;
+  width: 2rem;
+  color: grey;
+}
+
 @media screen and (max-width: 100em) and (min-width: 50em) {
   .footer-content > * {
     margin: 1rem;

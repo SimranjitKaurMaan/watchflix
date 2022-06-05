@@ -10,24 +10,24 @@ export const SideNavBar = () => {
       <nav>
         <ul class="stacked-list list-none">
           <li class="stacked-list-item">
-            <BsSearch size={"1.2rem"} color="grey" /><div class="stacked-list-item-text highlight-text">Discover</div>
+            <BsSearch className="md-icon" /><div class="stacked-list-item-text highlight-text">Discover</div>
           </li>
           <li class="stacked-list-item">
-            <MdLocalFireDepartment size={"1.2rem"} color="grey" /><div class="stacked-list-item-text highlight-text">Trending</div>
+            <MdLocalFireDepartment className="md-icon" /><div class="stacked-list-item-text highlight-text">Trending</div>
           </li>
           <li class="stacked-list-item">
-            <MdSubscriptions size={"1.2rem"} color="grey" /><div class="stacked-list-item-text highlight-text">Subscriptions</div>
+            <MdSubscriptions className="md-icon" /><div class="stacked-list-item-text highlight-text">Subscriptions</div>
           </li>
         </ul>
         <ul class="stacked-list list-none"> 
           <li class="stacked-list-item">
-            <MdVideoLibrary size={"1.2rem"} color="grey" /><div class="stacked-list-item-text highlight-text">Library</div>
+            <MdVideoLibrary className="md-icon" /><div class="stacked-list-item-text highlight-text">Library</div>
           </li>
           <li class="stacked-list-item">
-            <FaHistory size={"1.2rem"} color="grey" /><div class="stacked-list-item-text highlight-text">History</div>
+            <FaHistory className="md-icon" /><div class="stacked-list-item-text highlight-text">History</div>
           </li>
           <li class="stacked-list-item">
-            <AiFillLike size={"1.2rem"} color="grey" /><div class="stacked-list-item-text highlight-text">Liked videos</div>
+            <AiFillLike className="md-icon" /><div class="stacked-list-item-text highlight-text">Liked videos</div>
           </li>
         </ul>
       </nav>
