@@ -1,11 +1,11 @@
 export const Categories = () => {
   return (
     <>
-      <h2 className="md-heading">Categories</h2>
+      <div className="categories-container-wrapper">
+      <h2 className="md-heading">DISCOVER</h2>
       <div className="categories-container">
         <div className="category-container">
           <video
-            autoPlay
             muted
             loop
             poster="https://res.cloudinary.com/duddwta8d/video/upload/v1651992022/indian_cuisine_yh7kv7.jpg"
@@ -20,7 +20,6 @@ export const Categories = () => {
         </div>
         <div className="category-container">
           <video
-            autoPlay
             muted
             loop
             poster="https://res.cloudinary.com/duddwta8d/video/upload/v1651992944/chinese_cuisine_tjtdlb.jpg"
@@ -35,10 +34,9 @@ export const Categories = () => {
         </div>
         <div className="category-container">
           <video
-            autoPlay
             muted
             loop
-            poster="https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.jpg"
+            poster="https://res.cloudinary.com/duddwta8d/video/upload/v1651992944/chinese_cuisine_tjtdlb.jpg"
             alt="cuisine"
           >
             <source
@@ -48,6 +46,7 @@ export const Categories = () => {
           </video>
           <div className="sm-heading">Italian Cuisine</div>
         </div>
+      </div>
       </div>
     </>
   );
