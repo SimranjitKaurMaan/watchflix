@@ -1,7 +1,8 @@
 import { BiDotsVerticalRounded } from "react-icons/bi";
 import { BsDot } from "react-icons/bs";
 
-export const VideoCard = () => {
+export const VideoCard = ({video}) => {
+  console.log(video)
   return (
     <div className="video-container flex-col-start-start">
       <video
@@ -26,15 +27,15 @@ export const VideoCard = () => {
         <div className="video-details flex-col-center-start">
           <div className="video-title-info">
             <div className="video-title">
-              Highlight - Raptor Fortnite
-              <div className="video-subtitle">Fortnite meat</div>
+              {video.title}
+              <div className="video-subtitle">{video.subtitle}</div>
             </div>
             <div className="video-extra-info">
               <BiDotsVerticalRounded className="md-icon" />
             </div>
           </div>
           <div className="video-subtitle sm-top-margin flex-row-start-center">
-            6K views <BsDot className="md-icon"/> 4 hours ago
+            {video.views} views <BsDot className="md-icon"/> {video.uploadedAt}
           </div>
         </div>
       </div>

@@ -51,3 +51,24 @@ export const getVideoHandler = function (schema, request) {
     );
   }
 };
+
+/**
+ * This handler handles gets all products in a category in the db.
+ * send GET Request at /api/user/category/:categoryName/videos
+ * */
+
+ export const getVideoCategoryHandler = function (schema, request) {
+  const categoryName = request.params.categoryName;
+  try {
+    const videos = this.db.videos.where({categoryName: categoryName});
+    return new Response(200, {}, { videos });
+  } catch (error) {
+    return new Response(
+      500,
+      {},
+      {
+        error,
+      }
+    );
+  }
+};
