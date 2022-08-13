@@ -6,7 +6,7 @@ import { VideoPlayer } from "./customComponents/VideoPlayer";
 
 export const Video = () => {
 const { id } = useParams();
-const [video, setVideo] = useState({});
+const [video, setVideo] = useState(null);
 useEffect(() => {
     (async () => {
     const video = await fetchVideo(id);
@@ -15,11 +15,11 @@ useEffect(() => {
 },[])
   return <div className="video-container-wrapper">
       <main>
-          {Object.keys(video).length !== 0 && <VideoPlayer video={video}/>}
+          {video && <VideoPlayer video={video}/>}
       </main>
-      <aside>
+      {/* <aside>
           <h2 className="highlight-text sm-left-margin">Up next</h2>
           <VideoCard video={video}/>
-      </aside>
+      </aside> */}
   </div>
 };
