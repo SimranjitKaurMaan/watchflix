@@ -15,8 +15,8 @@ export const Categories = () => {
       <div className="categories-container-wrapper">
       <h2 className="md-heading">DISCOVER</h2>
       <div className="categories-container">
-      {categories.map(category =>
-          <div className="category-container">
+      {categories.map((category, index) =>
+          <div className="category-container" key={index}>
             <Link to={`/videos/category/${category.name}`}><video
               muted
               loop
