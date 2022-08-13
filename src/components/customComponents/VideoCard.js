@@ -2,17 +2,16 @@ import { BiDotsVerticalRounded } from "react-icons/bi";
 import { BsDot } from "react-icons/bs";
 
 export const VideoCard = ({video}) => {
-  console.log(video)
   return (
     <div className="video-container flex-col-start-start">
       <video
         muted
         loop
-        poster="https://res.cloudinary.com/duddwta8d/video/upload/v1651992022/indian_cuisine_yh7kv7.jpg"
+        poster={video.posterUrl}
         alt="cuisine"
       >
         <source
-          src="https://res.cloudinary.com/duddwta8d/video/upload/e_blur:100/v1651992022/indian_cuisine_yh7kv7.mp4"
+          src={video.videoUrl}
           type="video/mp4"
         />
       </video>
@@ -20,7 +19,7 @@ export const VideoCard = ({video}) => {
         <div className="video-avatar">
           <img
             className="avatar avatar-md rounded"
-            src="https://res.cloudinary.com/duddwta8d/image/upload/v1648081722/avatar-1_q0h9ko.jpg"
+            src={video.creatorAvatar}
             alt="avatar"
           />
         </div>
