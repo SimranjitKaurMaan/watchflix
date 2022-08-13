@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { fetchCategories } from "../../utils/requestUtils/HomeRequestUtils";
 
 export const Categories = () => {
@@ -16,7 +17,7 @@ export const Categories = () => {
       <div className="categories-container">
       {categories.map(category =>
           <div className="category-container">
-            <video
+            <Link to={`/videos/category/${category.name}`}><video
               muted
               loop
               poster={category.posterUrl}
@@ -26,8 +27,8 @@ export const Categories = () => {
                 src={category.videoUrl}
                 type="video/mp4"
               />
-            </video>
-            <div className="sm-heading">{category.name}</div>
+            </video></Link>
+            <div className="sm-heading">{category.name} Cuisine</div>
           </div>)}
       </div>
       </div>
