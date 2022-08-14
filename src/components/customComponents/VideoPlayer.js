@@ -1,8 +1,11 @@
+import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { AiFillLike, AiFillDislike } from "react-icons/ai";
 import { MdWatchLater } from "react-icons/md";
 import { RiMenuAddFill } from "react-icons/ri";
 
 export const VideoPlayer = ({video}) => {
+  const location = useLocation();
   return (
     <div className="video-player-container">
       <video
@@ -42,14 +45,14 @@ export const VideoPlayer = ({video}) => {
             by <span className="highlight-text">{video.creator}</span> &nbsp; |
             &nbsp; {video.views} views &nbsp; | &nbsp; {video.uploadedAt}
           </div>
-          <div class="divider"></div>
+          <div className="divider"></div>
           <div className="video-description-container sm-top-margin">
             <div className="video-description">
              {video.description}
             </div>
             <div className="video-player-buttons">
               <div className="icon-container">
-                <AiFillLike className="md-icon" />
+                <Link to="/videos/liked" state={{ from: location }}><AiFillLike className="md-icon" /></Link>
               </div>
               <span className="highlight-text icon-text-container">{video.likes}</span>
               <div className="icon-container">

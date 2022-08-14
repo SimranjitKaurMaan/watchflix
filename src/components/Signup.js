@@ -2,16 +2,20 @@ import { useState } from "react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useAuth } from "../contexts/auth-context";
+import { useNavigate, useLocation } from "react-router";
 import { signupUser } from "../utils/requestUtils/AuthRequestUtils";
 
 export const Signup = () => {
   const { setIsLoggedIn } = useAuth();
   const [userData, setUserData] = useState({ email: "", password: "" });
+  const location = useLocation();
+  const navigate = useNavigate();
   const signupHandler = async (event) => {
     event.preventDefault();
     const response = await signupUser(userData);
     document.cookie = "token=" + response.encodedToken;
     setIsLoggedIn((isLoggedIn) => !isLoggedIn);
+    navigate(location?.state?.from?.pathname, { replace: true });
     showSignupToast();
   };
 
@@ -21,6 +25,7 @@ export const Signup = () => {
     const response = await signupUser({ email: "test", password: "test" });
     document.cookie = "token=" + response.encodedToken;
     setIsLoggedIn((isLoggedIn) => !isLoggedIn);
+    navigate(location?.state?.from?.pathname, { replace: true });
     showTestSignupToast();
   };
 
