@@ -1,17 +1,19 @@
 import { BiDotsVerticalRounded } from "react-icons/bi";
 import { BsDot } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
-export const VideoCard = () => {
+export const VideoCard = ({video}) => {
+  console.log(`Inside VideoCard: ${JSON.stringify(video)}`)
   return (
-    <div className="video-container flex-col-start-start">
+    <Link to={`/videos/${video._id}`}><div className="video-container flex-col-start-start">
       <video
         muted
         loop
-        poster="https://res.cloudinary.com/duddwta8d/video/upload/v1651992022/indian_cuisine_yh7kv7.jpg"
+        poster={video.posterUrl}
         alt="cuisine"
       >
         <source
-          src="https://res.cloudinary.com/duddwta8d/video/upload/e_blur:100/v1651992022/indian_cuisine_yh7kv7.mp4"
+          src={video.videoUrl}
           type="video/mp4"
         />
       </video>
@@ -19,25 +21,25 @@ export const VideoCard = () => {
         <div className="video-avatar">
           <img
             className="avatar avatar-md rounded"
-            src="https://res.cloudinary.com/duddwta8d/image/upload/v1648081722/avatar-1_q0h9ko.jpg"
+            src={video.creatorAvatar}
             alt="avatar"
           />
         </div>
         <div className="video-details flex-col-center-start">
           <div className="video-title-info">
             <div className="video-title">
-              Highlight - Raptor Fortnite
-              <div className="video-subtitle">Fortnite meat</div>
+              {video.title}
+              <div className="video-subtitle">{video.subtitle}</div>
             </div>
             <div className="video-extra-info">
               <BiDotsVerticalRounded className="md-icon" />
             </div>
           </div>
           <div className="video-subtitle sm-top-margin flex-row-start-center">
-            6K views <BsDot className="md-icon"/> 4 hours ago
+            {video.views} views <BsDot className="md-icon"/> {video.uploadedAt}
           </div>
         </div>
       </div>
-    </div>
+    </div></Link>
   );
 };

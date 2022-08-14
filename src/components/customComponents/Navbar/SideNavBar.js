@@ -8,26 +8,26 @@ export const SideNavBar = () => {
   return (
     <aside>
       <nav>
-        <ul class="stacked-list list-none">
-          <li class="stacked-list-item">
-            <BsSearch className="md-icon" /><div class="stacked-list-item-text highlight-text">Discover</div>
+        <ul className="stacked-list list-none">
+          <li className="stacked-list-item">
+            <BsSearch className="md-icon" /><div className="stacked-list-item-text highlight-text">Discover</div>
           </li>
-          <li class="stacked-list-item">
-            <MdLocalFireDepartment className="md-icon" /><div class="stacked-list-item-text highlight-text">Trending</div>
+          <li className="stacked-list-item">
+            <MdLocalFireDepartment className="md-icon" /><div className="stacked-list-item-text highlight-text">Trending</div>
           </li>
-          <li class="stacked-list-item">
-            <MdSubscriptions className="md-icon" /><div class="stacked-list-item-text highlight-text">Subscriptions</div>
+          <li className="stacked-list-item">
+            <MdSubscriptions className="md-icon" /><div className="stacked-list-item-text highlight-text">Subscriptions</div>
           </li>
         </ul>
-        <ul class="stacked-list list-none"> 
-          <li class="stacked-list-item">
-            <MdVideoLibrary className="md-icon" /><div class="stacked-list-item-text highlight-text">Library</div>
+        <ul className="stacked-list list-none"> 
+          <li className="stacked-list-item">
+            <MdVideoLibrary className="md-icon" /><div className="stacked-list-item-text highlight-text">Library</div>
           </li>
-          <li class="stacked-list-item">
-            <FaHistory className="md-icon" /><div class="stacked-list-item-text highlight-text">History</div>
+          <li className="stacked-list-item">
+            <FaHistory className="md-icon" /><div className="stacked-list-item-text highlight-text">History</div>
           </li>
-          <li class="stacked-list-item">
-            <AiFillLike className="md-icon" /><div class="stacked-list-item-text highlight-text">Liked videos</div>
+          <li className="stacked-list-item">
+            <AiFillLike className="md-icon" /><div className="stacked-list-item-text highlight-text">Liked videos</div>
           </li>
         </ul>
       </nav>

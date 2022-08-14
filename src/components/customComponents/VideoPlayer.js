@@ -6,7 +6,7 @@ export const VideoPlayer = () => {
   return (
     <div className="video-player-container">
       <video
-        className="video-js vjs-big-play-centered"
+        className="vjs-big-play-centered"
         controls
         preload="auto"
         data-setup="{}"
