@@ -4,7 +4,7 @@ import { MdWatchLater } from "react-icons/md";
 import { RiMenuAddFill } from "react-icons/ri";
 import { useLocation, useNavigate } from "react-router";
 import { useAuth } from "../../contexts/auth-context";
-import { deleteFromLikes, fetchLikedVideos, postToLikes } from "../../utils/requestUtils/LikedRequestUtils";
+import { deleteFromLikes, postToLikes } from "../../utils/requestUtils/LikedRequestUtils";
 
 export const VideoPlayer = ({ video }) => {
   const { isLoggedIn } = useAuth();
