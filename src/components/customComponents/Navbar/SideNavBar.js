@@ -1,5 +1,5 @@
 import { BsSearch } from "react-icons/bs";
-import { MdLocalFireDepartment } from "react-icons/md";
+import { MdLocalFireDepartment, MdWatchLater } from "react-icons/md";
 import { MdSubscriptions } from "react-icons/md";
 import { MdVideoLibrary } from "react-icons/md";
 import { FaHistory } from "react-icons/fa";
@@ -13,18 +13,22 @@ export const SideNavBar = () => {
     <aside>
       <nav>
         <ul className="stacked-list list-none">
-          <li className="stacked-list-item">
-            <BsSearch className="md-icon" />
-            <div className="stacked-list-item-text highlight-text">
-              Discover
-            </div>
-          </li>
-          <li className="stacked-list-item">
-            <MdLocalFireDepartment className="md-icon" />
-            <div className="stacked-list-item-text highlight-text">
-              Trending
-            </div>
-          </li>
+          <Link to="/videos">
+            <li className="stacked-list-item">
+              <BsSearch className="md-icon" />
+              <div className="stacked-list-item-text highlight-text">
+                Discover
+              </div>
+            </li>
+          </Link>
+          <Link to="/videos">
+            <li className="stacked-list-item">
+              <MdLocalFireDepartment className="md-icon" />
+              <div className="stacked-list-item-text highlight-text">
+                Trending
+              </div>
+            </li>
+          </Link>
           <li className="stacked-list-item">
             <MdSubscriptions className="md-icon" />
             <div className="stacked-list-item-text highlight-text">
@@ -44,8 +48,14 @@ export const SideNavBar = () => {
           <Link to="/videos/liked" state={{ from: location }}>
             <li className="stacked-list-item">
               <AiFillLike className="md-icon" />
+              <div className="stacked-list-item-text highlight-text">Liked</div>
+            </li>
+          </Link>
+          <Link to="/videos/watchlater" state={{ from: location }}>
+            <li className="stacked-list-item">
+              <MdWatchLater className="md-icon" />
               <div className="stacked-list-item-text highlight-text">
-                Liked videos
+                WatchLater
               </div>
             </li>
           </Link>

@@ -1,17 +1,19 @@
 import { useState } from "react";
 import { AiFillLike, AiFillDislike, AiOutlineLike, AiOutlineDislike } from "react-icons/ai";
-import { MdWatchLater } from "react-icons/md";
+import { MdOutlineWatchLater, MdWatchLater } from "react-icons/md";
 import { RiMenuAddFill } from "react-icons/ri";
 import { useLocation, useNavigate } from "react-router";
 import { useAuth } from "../../contexts/auth-context";
 import { deleteFromLikes, postToLikes } from "../../utils/requestUtils/LikedRequestUtils";
+import { postToWatchLater } from "../../utils/requestUtils/WatchLaterRequestUtils";
 
 export const VideoPlayer = ({ video }) => {
   const { isLoggedIn } = useAuth();
   const location = useLocation();
   const navigate = useNavigate();
   const [showLikeIcon, setShowLikeIcon] = useState(true);
-  const [showDislikeIcon, SetshowDislikeIcon] = useState(true)
+  const [showDislikeIcon, SetShowDislikeIcon] = useState(true);
+  const [showWatchLaterIcon, setShowWatchLaterIcon] = useState(true);
 
   const addToLikesHandler = ({ ...video }) => {
     postToLikes(video);
@@ -20,8 +22,13 @@ export const VideoPlayer = ({ video }) => {
 
   const deleteFromLikestHandler = async ({...video}) => {
     deleteFromLikes(video._id);
-    SetshowDislikeIcon(false);
+    SetShowDislikeIcon(false);
  }
+
+ const addToWatchLaterHandler = ({ ...video }) => {
+  postToWatchLater(video);
+  setShowWatchLaterIcon(false);
+};
 
   return (
     <div className="video-player-container">
@@ -90,8 +97,15 @@ export const VideoPlayer = ({ video }) => {
               <span className="highlight-text icon-text-container">
                 {video.dislikes}
               </span>
-              <div className="icon-container">
-                <MdWatchLater className="md-icon" />
+              <div className="icon-container" onClick={() => {
+                  isLoggedIn
+                    ? addToWatchLaterHandler(video)
+                    : navigate("/signup", {
+                        replace: true,
+                        state: { from: location },
+                      });
+                }}> 
+                {showWatchLaterIcon ? <MdOutlineWatchLater className="md-icon"/> : <MdWatchLater className="md-icon"/>}
               </div>
               <div className="icon-container">
                 <RiMenuAddFill className="md-icon" />

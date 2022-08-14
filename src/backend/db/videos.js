@@ -393,9 +393,9 @@ export const videos = [
     description:
       "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
     posterUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/v1651992022/indian_cuisine_yh7kv7.jpg",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.jpg",
     videoUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/e_blur:100/v1651992022/indian_cuisine_yh7kv7.mp4",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.mp4",
     categoryName: "Italian",
     creatorAvatar:
       "https://res.cloudinary.com/duddwta8d/image/upload/v1648081722/avatar-1_q0h9ko.jpg",
@@ -413,9 +413,9 @@ export const videos = [
     description:
       "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
     posterUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/v1651992022/indian_cuisine_yh7kv7.jpg",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.jpg",
     videoUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/e_blur:100/v1651992022/indian_cuisine_yh7kv7.mp4",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.mp4",
     categoryName: "Italian",
     creatorAvatar:
       "https://res.cloudinary.com/duddwta8d/image/upload/v1648081722/avatar-1_q0h9ko.jpg",
@@ -433,9 +433,9 @@ export const videos = [
     description:
       "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
     posterUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/v1651992022/indian_cuisine_yh7kv7.jpg",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.jpg",
     videoUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/e_blur:100/v1651992022/indian_cuisine_yh7kv7.mp4",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.mp4",
     categoryName: "Italian",
     creatorAvatar:
       "https://res.cloudinary.com/duddwta8d/image/upload/v1648081722/avatar-1_q0h9ko.jpg",
@@ -453,9 +453,9 @@ export const videos = [
     description:
       "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
     posterUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/v1651992022/indian_cuisine_yh7kv7.jpg",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.jpg",
     videoUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/e_blur:100/v1651992022/indian_cuisine_yh7kv7.mp4",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.mp4",
     categoryName: "Italian",
     creatorAvatar:
       "https://res.cloudinary.com/duddwta8d/image/upload/v1648081722/avatar-1_q0h9ko.jpg",
@@ -473,9 +473,9 @@ export const videos = [
     description:
       "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
     posterUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/v1651992022/indian_cuisine_yh7kv7.jpg",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.jpg",
     videoUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/e_blur:100/v1651992022/indian_cuisine_yh7kv7.mp4",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.mp4",
     categoryName: "Italian",
     creatorAvatar:
       "https://res.cloudinary.com/duddwta8d/image/upload/v1648081722/avatar-1_q0h9ko.jpg",
@@ -493,9 +493,9 @@ export const videos = [
     description:
       "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
     posterUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/v1651992022/indian_cuisine_yh7kv7.jpg",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.jpg",
     videoUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/e_blur:100/v1651992022/indian_cuisine_yh7kv7.mp4",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.mp4",
     categoryName: "Italian",
     creatorAvatar:
       "https://res.cloudinary.com/duddwta8d/image/upload/v1648081722/avatar-1_q0h9ko.jpg",
@@ -513,9 +513,9 @@ export const videos = [
     description:
       "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
     posterUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/v1651992022/indian_cuisine_yh7kv7.jpg",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.jpg",
     videoUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/e_blur:100/v1651992022/indian_cuisine_yh7kv7.mp4",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.mp4",
     categoryName: "Italian",
     creatorAvatar:
       "https://res.cloudinary.com/duddwta8d/image/upload/v1648081722/avatar-1_q0h9ko.jpg",
@@ -533,9 +533,9 @@ export const videos = [
     description:
       "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
     posterUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/v1651992022/indian_cuisine_yh7kv7.jpg",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.jpg",
     videoUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/e_blur:100/v1651992022/indian_cuisine_yh7kv7.mp4",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.mp4",
     categoryName: "Italian",
     creatorAvatar:
       "https://res.cloudinary.com/duddwta8d/image/upload/v1648081722/avatar-1_q0h9ko.jpg",
@@ -552,9 +552,9 @@ export const videos = [
     description:
       "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
     posterUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/v1651992022/indian_cuisine_yh7kv7.jpg",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.jpg",
     videoUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/e_blur:100/v1651992022/indian_cuisine_yh7kv7.mp4",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.mp4",
     categoryName: "Italian",
     creatorAvatar:
       "https://res.cloudinary.com/duddwta8d/image/upload/v1648081722/avatar-1_q0h9ko.jpg",
@@ -572,9 +572,9 @@ export const videos = [
     description:
       "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
     posterUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/v1651992022/indian_cuisine_yh7kv7.jpg",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.jpg",
     videoUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/e_blur:100/v1651992022/indian_cuisine_yh7kv7.mp4",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.mp4",
     categoryName: "Italian",
     creatorAvatar:
       "https://res.cloudinary.com/duddwta8d/image/upload/v1648081722/avatar-1_q0h9ko.jpg",
@@ -591,9 +591,9 @@ export const videos = [
     description:
       "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
     posterUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/v1651992022/indian_cuisine_yh7kv7.jpg",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.jpg",
     videoUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/e_blur:100/v1651992022/indian_cuisine_yh7kv7.mp4",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.mp4",
     categoryName: "Italian",
     creatorAvatar:
       "https://res.cloudinary.com/duddwta8d/image/upload/v1648081722/avatar-1_q0h9ko.jpg",
@@ -610,9 +610,9 @@ export const videos = [
     description:
       "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
     posterUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/v1651992022/indian_cuisine_yh7kv7.jpg",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.jpg",
     videoUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/e_blur:100/v1651992022/indian_cuisine_yh7kv7.mp4",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.mp4",
     categoryName: "Italian",
     creatorAvatar:
       "https://res.cloudinary.com/duddwta8d/image/upload/v1648081722/avatar-1_q0h9ko.jpg",
@@ -629,9 +629,9 @@ export const videos = [
     description:
       "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
     posterUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/v1651992022/indian_cuisine_yh7kv7.jpg",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.jpg",
     videoUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/e_blur:100/v1651992022/indian_cuisine_yh7kv7.mp4",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.mp4",
     categoryName: "Italian",
     creatorAvatar:
       "https://res.cloudinary.com/duddwta8d/image/upload/v1648081722/avatar-1_q0h9ko.jpg",
@@ -648,9 +648,9 @@ export const videos = [
     description:
       "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
     posterUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/v1651992022/indian_cuisine_yh7kv7.jpg",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.jpg",
     videoUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/e_blur:100/v1651992022/indian_cuisine_yh7kv7.mp4",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.mp4",
     categoryName: "Italian",
     creatorAvatar:
       "https://res.cloudinary.com/duddwta8d/image/upload/v1648081722/avatar-1_q0h9ko.jpg",
@@ -667,9 +667,9 @@ export const videos = [
     description:
       "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
     posterUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/v1651992022/indian_cuisine_yh7kv7.jpg",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.jpg",
     videoUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/e_blur:100/v1651992022/indian_cuisine_yh7kv7.mp4",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.mp4",
     categoryName: "Italian",
     creatorAvatar:
       "https://res.cloudinary.com/duddwta8d/image/upload/v1648081722/avatar-1_q0h9ko.jpg",
@@ -687,9 +687,9 @@ export const videos = [
     description:
       "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
     posterUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/v1651992022/indian_cuisine_yh7kv7.jpg",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.jpg",
     videoUrl:
-      "https://res.cloudinary.com/duddwta8d/video/upload/e_blur:100/v1651992022/indian_cuisine_yh7kv7.mp4",
+      "https://res.cloudinary.com/duddwta8d/video/upload/v1651993176/italian_cusine_emauxd.mp4",
     categoryName: "Italian",
     creatorAvatar:
       "https://res.cloudinary.com/duddwta8d/image/upload/v1648081722/avatar-1_q0h9ko.jpg",
