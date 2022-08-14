@@ -1,8 +1,13 @@
 import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { FaRegBell } from "react-icons/fa";
 import { RiVideoAddLine } from "react-icons/ri";
+import { BsFillPersonPlusFill } from "react-icons/bs";
+import { useAuth } from "../../../contexts/auth-context";
 
 export const HeaderNavBar = () => {
+  const location = useLocation();
+  const {isLoggedIn} = useAuth();
   return (
     <>
       <header>
@@ -25,6 +30,13 @@ export const HeaderNavBar = () => {
             />
           </div>
           <nav>
+            {!isLoggedIn && (
+              <Link to="/signup" state={{ from: location }}>
+                <div className="badge-container">
+                  <BsFillPersonPlusFill className="lg-icon" />
+                </div>
+              </Link>
+            )}
             <div className="badge-container">
               <RiVideoAddLine className="lg-icon" />
             </div>

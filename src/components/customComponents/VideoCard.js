@@ -3,7 +3,6 @@ import { BsDot } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 export const VideoCard = ({video}) => {
-  console.log(`Inside VideoCard: ${JSON.stringify(video)}`)
   return (
     <Link to={`/videos/${video._id}`}><div className="video-container flex-col-start-start">
       <video

@@ -1,8 +1,28 @@
-import { AiFillLike, AiFillDislike } from "react-icons/ai";
+import { useState } from "react";
+import { AiFillLike, AiFillDislike, AiOutlineLike, AiOutlineDislike } from "react-icons/ai";
 import { MdWatchLater } from "react-icons/md";
 import { RiMenuAddFill } from "react-icons/ri";
+import { useLocation, useNavigate } from "react-router";
+import { useAuth } from "../../contexts/auth-context";
+import { deleteFromLikes, postToLikes } from "../../utils/requestUtils/LikedRequestUtils";
 
-export const VideoPlayer = ({video}) => {
+export const VideoPlayer = ({ video }) => {
+  const { isLoggedIn } = useAuth();
+  const location = useLocation();
+  const navigate = useNavigate();
+  const [showLikeIcon, setShowLikeIcon] = useState(true);
+  const [showDislikeIcon, SetshowDislikeIcon] = useState(true)
+
+  const addToLikesHandler = ({ ...video }) => {
+    postToLikes(video);
+    setShowLikeIcon(false);
+  };
+
+  const deleteFromLikestHandler = async ({...video}) => {
+    deleteFromLikes(video._id);
+    SetshowDislikeIcon(false);
+ }
+
   return (
     <div className="video-player-container">
       <video
@@ -14,10 +34,7 @@ export const VideoPlayer = ({video}) => {
         data-setup="{}"
         poster=""
       >
-        <source
-          src={video.videoUrl}
-          type="video/mp4"
-        />
+        <source src={video.videoUrl} type="video/mp4" />
       </video>
       <div className="video-player-actions flex-row-start-start">
         <div className="video-avatar">
@@ -29,9 +46,7 @@ export const VideoPlayer = ({video}) => {
         </div>
         <div className="video-player-details flex-col-center-start">
           <div className="video-title-info">
-            <div className="video-player-title">
-             {video.title}
-            </div>
+            <div className="video-player-title">{video.title}</div>
             <div className="video-extra-info">
               <button className="btn btn-primary">
                 Subscribe &nbsp; . &nbsp; {video.subscribers}
@@ -42,20 +57,39 @@ export const VideoPlayer = ({video}) => {
             by <span className="highlight-text">{video.creator}</span> &nbsp; |
             &nbsp; {video.views} views &nbsp; | &nbsp; {video.uploadedAt}
           </div>
-          <div class="divider"></div>
+          <div className="divider"></div>
           <div className="video-description-container sm-top-margin">
-            <div className="video-description">
-             {video.description}
-            </div>
+            <div className="video-description">{video.description}</div>
             <div className="video-player-buttons">
-              <div className="icon-container">
-                <AiFillLike className="md-icon" />
+              <div
+                className="icon-container"
+                onClick={() => {
+                  isLoggedIn
+                    ? addToLikesHandler(video)
+                    : navigate("/signup", {
+                        replace: true,
+                        state: { from: location },
+                      });
+                }}
+              >
+               {showLikeIcon ? <AiOutlineLike className="md-icon" /> : <AiFillLike className="md-icon" />}
               </div>
-              <span className="highlight-text icon-text-container">{video.likes}</span>
-              <div className="icon-container">
-                <AiFillDislike className="md-icon" />
+              <span className="highlight-text icon-text-container">
+                {video.likes}
+              </span>
+              <div className="icon-container" onClick={() => {
+                  isLoggedIn
+                    ? deleteFromLikestHandler(video)
+                    : navigate("/signup", {
+                        replace: true,
+                        state: { from: location },
+                      });
+                }}> 
+                {showDislikeIcon ? <AiOutlineDislike className="md-icon"/> : <AiFillDislike className="md-icon"/>}
               </div>
-              <span className="highlight-text icon-text-container">{video.dislikes}</span>
+              <span className="highlight-text icon-text-container">
+                {video.dislikes}
+              </span>
               <div className="icon-container">
                 <MdWatchLater className="md-icon" />
               </div>

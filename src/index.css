@@ -132,6 +132,7 @@ video {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: nowrap;
 }
 
 .categories-container {
@@ -440,6 +441,21 @@ aside {
   width: 2rem;
   color: grey;
 }
+
+/* Sign up */
+
+.sign-up {
+  padding: 3rem;
+}
+
+.input-group {
+  margin-top: 2rem;
+}
+
+.input-field-20w {
+  width: 20rem;
+}
+
 
 @media screen and (max-width: 100em) and (min-width: 50em) {
   .footer-content > * {
