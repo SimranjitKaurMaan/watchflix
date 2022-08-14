@@ -12,7 +12,7 @@ export const VideoListing = () => {
       const videos = await fetchVideosByCategory(category);
       setVideos(videos);
       })();
-    }, []);
+    }, [category]);
   return (
     <div className="videos-container">
         <SideNavBar/>
