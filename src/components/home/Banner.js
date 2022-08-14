@@ -1,4 +1,5 @@
 import {HiPlay} from "react-icons/hi"
+import { Link } from "react-router-dom"
 
 export const Banner = () => {
     return <>
@@ -8,11 +9,11 @@ export const Banner = () => {
         </video>
         <div className="hero-content-overlay">
             <div className="md-heading sm-top-margin">🏆 RECIPE OF THE DAY</div>
-            <h1 className="highlight-text">VEG GRILL SANDWICH</h1>
+            <h1 className="highlight-text">FISH BBQ GRILL</h1>
             <h2 className="highlight-text">BY DELENA GOLEMEZ</h2>
-            <div className="md-heading extra-lg-top-margin">Charlie Benz - Veg Grill Sandwich</div>
+            <div className="md-heading extra-lg-top-margin">Charlie Benz - Fish BBQ Grill</div>
             <div className="md-heading">feat. Delena Golomez</div>
-            <HiPlay size={"4rem"} style={{color: "#FE3562"}}/>
+            <Link to="/videos"><HiPlay size={"4rem"} style={{color: "#FE3562"}}/></Link>
         </div>
       </div>
     </>
