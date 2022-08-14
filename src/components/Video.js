@@ -12,7 +12,7 @@ export const Video = () => {
       const video = await fetchVideo(id);
       setVideo(video);
     })();
-  }, []);
+  }, [id]);
   return (
     <div className="video-container-wrapper">
       <main>{video && <VideoPlayer video={video} />}</main>
