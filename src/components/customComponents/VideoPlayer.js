@@ -32,7 +32,7 @@ export const VideoPlayer = ({video}) => {
             </div>
             <div className="video-extra-info">
               <button className="btn btn-primary">
-                Subscribe &nbsp; . &nbsp; 12M
+                Subscribe &nbsp; . &nbsp; {video.subscribers}
               </button>
             </div>
           </div>
