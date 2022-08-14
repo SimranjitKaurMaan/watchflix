@@ -39,7 +39,6 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #202020;
 }
 
 .header-nav-container > nav {
@@ -314,10 +313,6 @@ aside {
 }
 
 /* SideNavBar */
-.main-container-wrapper > aside {
-  background-color: var(--color-grey-dark);
-}
-
 .stacked-list {
   margin-top: 2rem;
   box-shadow: 0 1px grey;
