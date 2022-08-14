@@ -12,7 +12,7 @@ export const VideoPlayer = ({ video }) => {
   const location = useLocation();
   const navigate = useNavigate();
   const [showLikeIcon, setShowLikeIcon] = useState(true);
-  const [showDislikeIcon, SetshowDislikeIcon] = useState(true);
+  const [showDislikeIcon, SetShowDislikeIcon] = useState(true);
   const [showWatchLaterIcon, setShowWatchLaterIcon] = useState(true);
 
   const addToLikesHandler = ({ ...video }) => {
@@ -22,7 +22,7 @@ export const VideoPlayer = ({ video }) => {
 
   const deleteFromLikestHandler = async ({...video}) => {
     deleteFromLikes(video._id);
-    SetshowDislikeIcon(false);
+    SetShowDislikeIcon(false);
  }
 
  const addToWatchLaterHandler = ({ ...video }) => {
