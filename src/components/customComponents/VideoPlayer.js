@@ -8,6 +8,8 @@ export const VideoPlayer = ({video}) => {
       <video
         className="vjs-big-play-centered"
         controls
+        autoPlay
+        loop
         preload="auto"
         data-setup="{}"
         poster=""
