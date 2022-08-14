@@ -1,5 +1,5 @@
 import { BsSearch } from "react-icons/bs";
-import { MdLocalFireDepartment } from "react-icons/md";
+import { MdLocalFireDepartment, MdWatchLater } from "react-icons/md";
 import { MdSubscriptions } from "react-icons/md";
 import { MdVideoLibrary } from "react-icons/md";
 import { FaHistory } from "react-icons/fa";
@@ -45,7 +45,15 @@ export const SideNavBar = () => {
             <li className="stacked-list-item">
               <AiFillLike className="md-icon" />
               <div className="stacked-list-item-text highlight-text">
-                Liked videos
+                Liked
+              </div>
+            </li>
+          </Link>
+          <Link to="/videos/watchlater" state={{ from: location }}>
+            <li className="stacked-list-item">
+              <MdWatchLater className="md-icon" />
+              <div className="stacked-list-item-text highlight-text">
+                WatchLater
               </div>
             </li>
           </Link>
