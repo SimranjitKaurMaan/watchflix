@@ -14,8 +14,8 @@ export const Router = () => {
         <Route path="/" element={<Main/>}/>
         <Route path="/videos/category/:category" element={<VideoListing/>} />
         <Route path="/videos/:id" element={<Video/>}/>
-        <Route path="/liked" element={<Liked/>}/>
-        <Route path="/history" element={<History/>}/>
+        <Route path="videos/liked" element={<Liked/>}/>
+        <Route path="videos/history" element={<History/>}/>
         <Route path="/signup" element={<Signup/>}/>
         <Route path="/mockman" element={<MockAPI/>}/>
     </Routes>);

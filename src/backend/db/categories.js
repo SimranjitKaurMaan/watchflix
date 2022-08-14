@@ -23,5 +23,5 @@ export const categories = [
     name: "Chinese",
     posterUrl: "https://res.cloudinary.com/duddwta8d/video/upload/v1651992022/indian_cuisine_yh7kv7.jpg",
     videoUrl: "https://res.cloudinary.com/duddwta8d/video/upload/e_blur:100/v1651992022/indian_cuisine_yh7kv7.mp4"
-  },
+  }
 ];

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { FaRegBell } from "react-icons/fa";
 import { RiVideoAddLine } from "react-icons/ri";
+import { BsFillPersonPlusFill } from "react-icons/bs";
 
 export const HeaderNavBar = () => {
   return (
@@ -25,6 +26,11 @@ export const HeaderNavBar = () => {
             />
           </div>
           <nav>
+            <Link to="/signup">
+              <div className="badge-container">
+                <BsFillPersonPlusFill className="lg-icon" />
+              </div>
+            </Link>
             <div className="badge-container">
               <RiVideoAddLine className="lg-icon" />
             </div>
